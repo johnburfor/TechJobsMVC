@@ -36,7 +36,7 @@
     @foreach (var job in ViewBag.Jobs)
     {
         <table class="job-listing">
-            @foreach (KeyValuePair<string, string> jobfield in job)
+            @foreach (KeyValuePair<string, string> field in job)
             {
                 <tr>
                     <td>@field.Key</td>
